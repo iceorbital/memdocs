@@ -174,11 +174,11 @@ Intune uses different refresh cycles to check for updates to compliance policies
 
 At any time, users can open the Company Portal app, and sync the device to immediately check for policy updates.
 
-### Client-driven compliance evaluation (preview)
+### Client-driven compliance evaluation
 
 For supported Windows devices, Intune supports client-driven compliance evaluation. With this capability, a device can detect certain local state changes and proactively request a compliance re-evaluation, rather than waiting for the next scheduled check-in cycle.
 
-State changes that can trigger a client-driven compliance evaluation include changes to device configuration, security posture, and other settings that affect a device's compliance state.
+State changes that can trigger a client-driven compliance evaluation include changes to device configuration, security posture, and other settings that affect a device's compliance state. For more information, see [How compliance calculation is triggered on Windows devices](./ref-windows-settings.md#compliance-recalculation-triggers).
 
 ### Assign an InGracePeriod status
 
